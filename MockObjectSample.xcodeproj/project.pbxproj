@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10506141729BADB001A4BAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10506131729BADB001A4BAA /* UIKit.framework */; };
+		A10506161729BADB001A4BAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10506151729BADB001A4BAA /* Foundation.framework */; };
+		A10506181729BADB001A4BAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10506171729BADB001A4BAA /* CoreGraphics.framework */; };
+		A105061E1729BADB001A4BAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A105061C1729BADB001A4BAA /* InfoPlist.strings */; };
+		A10506201729BADB001A4BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A105061F1729BADB001A4BAA /* main.m */; };
+		A10506241729BADB001A4BAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A10506231729BADB001A4BAA /* AppDelegate.m */; };
+		A10506261729BADB001A4BAA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A10506251729BADB001A4BAA /* Default.png */; };
+		A10506281729BADB001A4BAA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A10506271729BADB001A4BAA /* Default@2x.png */; };
+		A105062A1729BADB001A4BAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A10506291729BADB001A4BAA /* Default-568h@2x.png */; };
+		A105062D1729BADB001A4BAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A105062C1729BADB001A4BAA /* ViewController.m */; };
+		A10506301729BADB001A4BAA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A105062E1729BADB001A4BAA /* ViewController.xib */; };
+		A10506381729BADB001A4BAA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10506371729BADB001A4BAA /* SenTestingKit.framework */; };
+		A10506391729BADB001A4BAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10506131729BADB001A4BAA /* UIKit.framework */; };
+		A105063A1729BADB001A4BAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10506151729BADB001A4BAA /* Foundation.framework */; };
+		A10506421729BADC001A4BAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A10506401729BADC001A4BAA /* InfoPlist.strings */; };
+		A10506451729BADC001A4BAA /* MockObjectSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A10506441729BADC001A4BAA /* MockObjectSampleTests.m */; };
+		A10506761729BCF4001A4BAA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A10506751729BCF4001A4BAA /* libOCMock.a */; };
+		A105067C1729C11A001A4BAA /* ApiUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A105067B1729C11A001A4BAA /* ApiUtility.m */; };
+		A105067F1729C7EB001A4BAA /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = A105067E1729C7EB001A4BAA /* Photo.m */; };
+		A10506841729D725001A4BAA /* panoresults.json in Resources */ = {isa = PBXBuildFile; fileRef = A10506831729D725001A4BAA /* panoresults.json */; };
+		A10506871729E23A001A4BAA /* UIImageView+Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = A10506861729E23A001A4BAA /* UIImageView+Cache.m */; };
+		A10506891729E3C5001A4BAA /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A10506881729E3C5001A4BAA /* logo.jpeg */; };
+		A10ECB79172C0663006742D6 /* ImageDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10ECB77172C0663006742D6 /* ImageDisplayViewController.m */; };
+		A10ECB7A172C0663006742D6 /* ImageDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10ECB78172C0663006742D6 /* ImageDisplayViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A105063B1729BADB001A4BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10506081729BADB001A4BAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A105060F1729BADB001A4BAA;
+			remoteInfo = MockObjectSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A10506101729BADB001A4BAA /* MockObjectSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockObjectSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10506131729BADB001A4BAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A10506151729BADB001A4BAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A10506171729BADB001A4BAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A105061B1729BADB001A4BAA /* MockObjectSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MockObjectSample-Info.plist"; sourceTree = "<group>"; };
+		A105061D1729BADB001A4BAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A105061F1729BADB001A4BAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A10506211729BADB001A4BAA /* MockObjectSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MockObjectSample-Prefix.pch"; sourceTree = "<group>"; };
+		A10506221729BADB001A4BAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A10506231729BADB001A4BAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A10506251729BADB001A4BAA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A10506271729BADB001A4BAA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A10506291729BADB001A4BAA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A105062B1729BADB001A4BAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A105062C1729BADB001A4BAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A105062F1729BADB001A4BAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A10506361729BADB001A4BAA /* MockObjectSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockObjectSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10506371729BADB001A4BAA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A105063F1729BADC001A4BAA /* MockObjectSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MockObjectSampleTests-Info.plist"; sourceTree = "<group>"; };
+		A10506411729BADC001A4BAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A10506431729BADC001A4BAA /* MockObjectSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockObjectSampleTests.h; sourceTree = "<group>"; };
+		A10506441729BADC001A4BAA /* MockObjectSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockObjectSampleTests.m; sourceTree = "<group>"; };
+		A105066E1729BCF4001A4BAA /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		A105066F1729BCF4001A4BAA /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		A10506701729BCF4001A4BAA /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		A10506711729BCF4001A4BAA /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		A10506721729BCF4001A4BAA /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		A10506731729BCF4001A4BAA /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		A10506751729BCF4001A4BAA /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		A105067A1729C11A001A4BAA /* ApiUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiUtility.h; sourceTree = "<group>"; };
+		A105067B1729C11A001A4BAA /* ApiUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiUtility.m; sourceTree = "<group>"; };
+		A105067D1729C7EB001A4BAA /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		A105067E1729C7EB001A4BAA /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		A10506831729D725001A4BAA /* panoresults.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = panoresults.json; sourceTree = "<group>"; };
+		A10506851729E23A001A4BAA /* UIImageView+Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Cache.h"; sourceTree = "<group>"; };
+		A10506861729E23A001A4BAA /* UIImageView+Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Cache.m"; sourceTree = "<group>"; };
+		A10506881729E3C5001A4BAA /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = "<group>"; };
+		A10ECB76172C0663006742D6 /* ImageDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDisplayViewController.h; sourceTree = "<group>"; };
+		A10ECB77172C0663006742D6 /* ImageDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDisplayViewController.m; sourceTree = "<group>"; };
+		A10ECB78172C0663006742D6 /* ImageDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageDisplayViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A105060D1729BADB001A4BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10506141729BADB001A4BAA /* UIKit.framework in Frameworks */,
+				A10506161729BADB001A4BAA /* Foundation.framework in Frameworks */,
+				A10506181729BADB001A4BAA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10506321729BADB001A4BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10506381729BADB001A4BAA /* SenTestingKit.framework in Frameworks */,
+				A10506391729BADB001A4BAA /* UIKit.framework in Frameworks */,
+				A105063A1729BADB001A4BAA /* Foundation.framework in Frameworks */,
+				A10506761729BCF4001A4BAA /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10506071729BADB001A4BAA = {
+			isa = PBXGroup;
+			children = (
+				A10506191729BADB001A4BAA /* MockObjectSample */,
+				A105063D1729BADB001A4BAA /* MockObjectSampleTests */,
+				A105066B1729BCF4001A4BAA /* usr */,
+				A10506121729BADB001A4BAA /* Frameworks */,
+				A10506111729BADB001A4BAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10506111729BADB001A4BAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10506101729BADB001A4BAA /* MockObjectSample.app */,
+				A10506361729BADB001A4BAA /* MockObjectSampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10506121729BADB001A4BAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A10506131729BADB001A4BAA /* UIKit.framework */,
+				A10506151729BADB001A4BAA /* Foundation.framework */,
+				A10506171729BADB001A4BAA /* CoreGraphics.framework */,
+				A10506371729BADB001A4BAA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A10506191729BADB001A4BAA /* MockObjectSample */ = {
+			isa = PBXGroup;
+			children = (
+				A10506851729E23A001A4BAA /* UIImageView+Cache.h */,
+				A10506861729E23A001A4BAA /* UIImageView+Cache.m */,
+				A10506781729C071001A4BAA /* utility */,
+				A10506771729C06E001A4BAA /* models */,
+				A10506221729BADB001A4BAA /* AppDelegate.h */,
+				A10506231729BADB001A4BAA /* AppDelegate.m */,
+				A105062B1729BADB001A4BAA /* ViewController.h */,
+				A105062C1729BADB001A4BAA /* ViewController.m */,
+				A10ECB76172C0663006742D6 /* ImageDisplayViewController.h */,
+				A10ECB77172C0663006742D6 /* ImageDisplayViewController.m */,
+				A10ECB78172C0663006742D6 /* ImageDisplayViewController.xib */,
+				A105062E1729BADB001A4BAA /* ViewController.xib */,
+				A105061A1729BADB001A4BAA /* Supporting Files */,
+			);
+			path = MockObjectSample;
+			sourceTree = "<group>";
+		};
+		A105061A1729BADB001A4BAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A10506881729E3C5001A4BAA /* logo.jpeg */,
+				A105061B1729BADB001A4BAA /* MockObjectSample-Info.plist */,
+				A105061C1729BADB001A4BAA /* InfoPlist.strings */,
+				A105061F1729BADB001A4BAA /* main.m */,
+				A10506211729BADB001A4BAA /* MockObjectSample-Prefix.pch */,
+				A10506251729BADB001A4BAA /* Default.png */,
+				A10506271729BADB001A4BAA /* Default@2x.png */,
+				A10506291729BADB001A4BAA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A105063D1729BADB001A4BAA /* MockObjectSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A10506431729BADC001A4BAA /* MockObjectSampleTests.h */,
+				A10506441729BADC001A4BAA /* MockObjectSampleTests.m */,
+				A105063E1729BADC001A4BAA /* Supporting Files */,
+			);
+			path = MockObjectSampleTests;
+			sourceTree = "<group>";
+		};
+		A105063E1729BADC001A4BAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A10506831729D725001A4BAA /* panoresults.json */,
+				A105063F1729BADC001A4BAA /* MockObjectSampleTests-Info.plist */,
+				A10506401729BADC001A4BAA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A105066B1729BCF4001A4BAA /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				A105066C1729BCF4001A4BAA /* include */,
+				A10506741729BCF4001A4BAA /* lib */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		A105066C1729BCF4001A4BAA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A105066D1729BCF4001A4BAA /* OCMock */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A105066D1729BCF4001A4BAA /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				A105066E1729BCF4001A4BAA /* NSNotificationCenter+OCMAdditions.h */,
+				A105066F1729BCF4001A4BAA /* OCMArg.h */,
+				A10506701729BCF4001A4BAA /* OCMConstraint.h */,
+				A10506711729BCF4001A4BAA /* OCMock.h */,
+				A10506721729BCF4001A4BAA /* OCMockObject.h */,
+				A10506731729BCF4001A4BAA /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		A10506741729BCF4001A4BAA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A10506751729BCF4001A4BAA /* libOCMock.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A10506771729C06E001A4BAA /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A105067D1729C7EB001A4BAA /* Photo.h */,
+				A105067E1729C7EB001A4BAA /* Photo.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		A10506781729C071001A4BAA /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				A105067A1729C11A001A4BAA /* ApiUtility.h */,
+				A105067B1729C11A001A4BAA /* ApiUtility.m */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A105060F1729BADB001A4BAA /* MockObjectSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10506481729BADC001A4BAA /* Build configuration list for PBXNativeTarget "MockObjectSample" */;
+			buildPhases = (
+				A105060C1729BADB001A4BAA /* Sources */,
+				A105060D1729BADB001A4BAA /* Frameworks */,
+				A105060E1729BADB001A4BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockObjectSample;
+			productName = MockObjectSample;
+			productReference = A10506101729BADB001A4BAA /* MockObjectSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10506351729BADB001A4BAA /* MockObjectSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A105064B1729BADC001A4BAA /* Build configuration list for PBXNativeTarget "MockObjectSampleTests" */;
+			buildPhases = (
+				A10506311729BADB001A4BAA /* Sources */,
+				A10506321729BADB001A4BAA /* Frameworks */,
+				A10506331729BADB001A4BAA /* Resources */,
+				A10506341729BADB001A4BAA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A105063C1729BADB001A4BAA /* PBXTargetDependency */,
+			);
+			name = MockObjectSampleTests;
+			productName = MockObjectSampleTests;
+			productReference = A10506361729BADB001A4BAA /* MockObjectSampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10506081729BADB001A4BAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Eric McConkie";
+			};
+			buildConfigurationList = A105060B1729BADB001A4BAA /* Build configuration list for PBXProject "MockObjectSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A10506071729BADB001A4BAA;
+			productRefGroup = A10506111729BADB001A4BAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A105060F1729BADB001A4BAA /* MockObjectSample */,
+				A10506351729BADB001A4BAA /* MockObjectSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A105060E1729BADB001A4BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A105061E1729BADB001A4BAA /* InfoPlist.strings in Resources */,
+				A10506261729BADB001A4BAA /* Default.png in Resources */,
+				A10506281729BADB001A4BAA /* Default@2x.png in Resources */,
+				A105062A1729BADB001A4BAA /* Default-568h@2x.png in Resources */,
+				A10506301729BADB001A4BAA /* ViewController.xib in Resources */,
+				A10506891729E3C5001A4BAA /* logo.jpeg in Resources */,
+				A10ECB7A172C0663006742D6 /* ImageDisplayViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10506331729BADB001A4BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10506421729BADC001A4BAA /* InfoPlist.strings in Resources */,
+				A10506841729D725001A4BAA /* panoresults.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A10506341729BADB001A4BAA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A105060C1729BADB001A4BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10506201729BADB001A4BAA /* main.m in Sources */,
+				A10506241729BADB001A4BAA /* AppDelegate.m in Sources */,
+				A105062D1729BADB001A4BAA /* ViewController.m in Sources */,
+				A105067C1729C11A001A4BAA /* ApiUtility.m in Sources */,
+				A105067F1729C7EB001A4BAA /* Photo.m in Sources */,
+				A10506871729E23A001A4BAA /* UIImageView+Cache.m in Sources */,
+				A10ECB79172C0663006742D6 /* ImageDisplayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10506311729BADB001A4BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10506451729BADC001A4BAA /* MockObjectSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A105063C1729BADB001A4BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A105060F1729BADB001A4BAA /* MockObjectSample */;
+			targetProxy = A105063B1729BADB001A4BAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A105061C1729BADB001A4BAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A105061D1729BADB001A4BAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A105062E1729BADB001A4BAA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A105062F1729BADB001A4BAA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		A10506401729BADC001A4BAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10506411729BADC001A4BAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A10506461729BADC001A4BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A10506471729BADC001A4BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10506491729BADC001A4BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MockObjectSample/MockObjectSample-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "MockObjectSample/MockObjectSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/usr/include\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A105064A1729BADC001A4BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MockObjectSample/MockObjectSample-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "MockObjectSample/MockObjectSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/usr/include\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A105064C1729BADC001A4BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MockObjectSample.app/MockObjectSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MockObjectSample/MockObjectSample-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/usr/include\"";
+				INFOPLIST_FILE = "MockObjectSampleTests/MockObjectSampleTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/usr/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/usr/lib/libOCMock.a\"",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A105064D1729BADC001A4BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MockObjectSample.app/MockObjectSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MockObjectSample/MockObjectSample-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/usr/include\"";
+				INFOPLIST_FILE = "MockObjectSampleTests/MockObjectSampleTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/usr/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/usr/lib/libOCMock.a\"",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A105060B1729BADB001A4BAA /* Build configuration list for PBXProject "MockObjectSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10506461729BADC001A4BAA /* Debug */,
+				A10506471729BADC001A4BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10506481729BADC001A4BAA /* Build configuration list for PBXNativeTarget "MockObjectSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10506491729BADC001A4BAA /* Debug */,
+				A105064A1729BADC001A4BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A105064B1729BADC001A4BAA /* Build configuration list for PBXNativeTarget "MockObjectSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A105064C1729BADC001A4BAA /* Debug */,
+				A105064D1729BADC001A4BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10506081729BADB001A4BAA /* Project object */;
+}
